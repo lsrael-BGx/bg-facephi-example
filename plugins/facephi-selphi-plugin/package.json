@@ -1,0 +1,14 @@
+{
+  "name": "facephi-selphi-plugin",
+  "version": "1.0.0",
+  "description": "FacePhi Widget Plugin",
+  "cordova": {
+    "id": "facephi-selphi-plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "peerDependencies": {
+    "cordova-plugin-file": ">=2.0.0"
+  }
+}

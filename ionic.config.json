@@ -1,0 +1,7 @@
+{
+  "name": "FPhi.Selphi.Widget.Ionic.Example",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "facephi-core-plugin",
+  "version": "1.0.0",
+  "description": "FacePhi Core Widget Plugin",
+  "cordova": {
+    "id": "facephi-core-plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "peerDependencies": {
+    "cordova-plugin-file": ">=2.0.0"
+  }
+}

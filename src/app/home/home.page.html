@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+
+    <ion-toolbar color="bluefp">
+        <ion-title class="labelTitleSelphi">
+            Selphi
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <ion-grid style="height: 100%;">
+        <ion-row class="labelRowSelphi">
+            <ion-col class="labelColSelphi">
+                <ion-label [ngModel]='' [ngClass]="showErrorClassStyle ? 'labelMessageErrorSelphi' : 'labelMessageSelphi'" [class.hidden]="message.length == 0">
+                    {{message}}
+                </ion-label>
+            </ion-col>
+        </ion-row>
+        <ion-row class="imgRowSelphi">
+            <ion-col size="2"></ion-col>
+            <ion-col size="8">
+                <div class="imgColSelphi">
+                    <ion-img [src]="bestImageCropped" [class.hidden]="bestImageCropped == null"></ion-img>
+                </div>
+            </ion-col>
+            <ion-col size="2"></ion-col>
+        </ion-row>
+        <ion-row class="buttonRowSelphi">
+            <ion-col size="1"></ion-col>
+            <ion-col size="10" class="buttonColSelphi">
+                <ion-button class="buttonSelphi" (click)='onLaunchSelphiProcess()' color="bluefp">Launch</ion-button>
+            </ion-col>
+            <ion-col size="1"></ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

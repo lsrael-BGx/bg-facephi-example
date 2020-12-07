@@ -1,0 +1,72 @@
+.hidden {
+    opacity: 0;
+}
+
+.labelRowSelphi {
+    height: 25%;
+}
+
+.imgRowSelphi {
+    height: 50%;
+}
+
+.buttonRowSelphi {
+    height: 25%;
+}
+
+.labelColSelphi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgColSelphi {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    background-color: #e8e6e6;
+    border-radius: 10px;
+}
+
+.buttonColSelphi {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    align-items: center;
+}
+
+.buttonSelphi {
+    border-color: var(--ion-color-bluefp);
+    --border-radius: 20px;
+    width: 50%;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    font-family: 'Circular Std Bold' !important;
+}
+
+.imageSelphi {
+    --border-radius: 10px;
+}
+
+.labelTitleSelphi {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    font-family: 'Circular Std Bold' !important;
+}
+
+.labelMessageSelphi {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    color: var(--ion-color-bluefp);
+    font-family: 'Circular Std Bold' !important;
+}
+
+.labelMessageErrorSelphi {
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    color: var(--ion-color-danger);
+    font-family: 'Circular Std Bold' !important;
+}
